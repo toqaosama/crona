@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="./asstes/css/bootstrap.min.css">
+
+
+  <link rel="stylesheet" href="./cs/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <link rel="stylesheet" href="./css/animate.css">
+
+</head>
+
+<body>
+
+
+
+
+  <!-- Image and text -->
+  <nav class="navbar navbar-light container-ml-6" style=" height: 80px; background-color: #e3f2fd;">
+    <a class="navbar-brand  "
+      style="color: #0050e9; margin-left: 10px; font-family: 'Francois One', sans-serif; font-size :40px;" href="#">
+      C<img class="wow rotateIn" src="./img/2913584.png" width="63" height="60" class="d-inline-block align-top"
+        alt="">VID-19
+    </a>
+
+    <ul class="nav nav-pills mb-3 nav justify-content-center" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#home" role="tab"
+          aria-controls="pills-home" aria-selected="true" data-scroll>Home</a>
+      </li>
+
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-about-corona-tab" data-toggle="pill" href="#about" role="tab"
+          aria-controls="pills-profile" aria-selected="false" data-scroll>about corona</a>
+      </li>
+
+
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-symptoms-tab" data-toggle="pill" href="#symptoms" role="tab"
+          aria-controls="pills-contact" aria-selected="false">symptoms</a>
+      </li>
+
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-about-corona-tab" data-toggle="pill" href="#Prevention" role="tab"
+          aria-controls="pills-profile" aria-selected="false" data-scroll>Prevention</a>
+      </li>
+
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-treatment-tab" data-toggle="pill" href="#treatment" role="tab"
+          aria-controls="pills-contact" aria-selected="false">treatment</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-FAQ-tab" data-toggle="pill" href="#FAQ" role="tab" aria-controls="pills-contact"
+          aria-selected="false">FAQ</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-news-tab" data-toggle="pill" href="#news" role="tab" aria-controls="pills-contact"
+          aria-selected="false">news</a>
+      </li>
+    </ul>
+    <!-- <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+     
+    </div>
+    <div class="tab-pane fade" id="pills-about-corona" role="tabpanel" aria-labelledby="pills-profile-tab">
+      
+    </div>
+    <div class="tab-pane fade" id="pills-symptoms" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+    </div>
+    <div class="tab-pane fade" id="pills-treatment" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+    </div>
+    <div class="tab-pane fade" id="pills-FAQ" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+    </div>
+    <div class="tab-pane fade" id="pills-news" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+    </div>
+  </div> -->
+    <form class="form-inline">
+      <button class="btn btn-outline-success bg-primary " style=" margin: 3px 10px;    color: white;" type="button">DO &
+        DON'T</button>
+
+    </form>
+  </nav>
+  <div id="home">
+
+    <div class="col-md-12">
+      <img src="./img/header-b.png" alt="..." style="width: 50%; float: right;">
+    </div>
+
+    <div class="card-body">
+      <h5 class="card-title" style="margin-left: 140px; margin-top: 100px; color: #0050e9; font-size: 100px;">CORONA
+      </h5>
+      <h5 class="card-title" style="margin-left: 560px; margin-top: -110px; color: brown; font-size: 50px;">COVID-19
+      </h5>
+      <h5 class="card-title" style="margin-left: 565px; margin-top: -5px; color: #0050e9; font-size: 50px;">VIRUS</h5>
+
+    </div>
+    <div class="col-md-12" style="margin: 90px; font-size: 20px;">
+      <p class="card-text" style="">The coronavirus (COVID-19) was first reported in Wuhan, hubei, china in december
+        2019,<br> the outbreak was later recognized as a pandemic by the World Health organization (WHO) <br>on 11 march
+        2020.</p>
+
+
+      <button type="button" class="btn btn-primary"
+        style="margin-top: 30PX; border-radius: 50%; width: 300px; height: 60px;">HOW TO PROTECT <svg
+          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-shaded"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M8 14.933a.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067v13.866zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z" />
+        </svg></button>
+
+      <p style="color:#0050e9 ; font-size: 35px; margin-left: 450px; margin-top: -50px;">About COVID-19 <svg
+          xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-arrow-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+        </svg></p>
+
+    </div>
+    <div style="font-family:initial; font-size:5px; opacity: 0.5; margin-left: 15px; ">
+      <h1>WORLDWIDECASES</h1>
+    </div>
+    <div style="font-family:initial; font-size:5px; opacity: 0.5; margin-left: 450px;margin-top:-55px;">
+      <h1> DEATHS</h1>
+    </div>
+    <div style="font-family:initial; font-size:5px; opacity: 0.5; margin-left: 650px;margin-top: -55px;">
+      <h1> RECOVERED</h1>
+    </div>
+
+    <div style="font-family:initial; font-size:5px; margin-left: 55px; margin-top:20px; ">
+      <h1>8,949,671</h1>
+    </div>
+    <div style="font-family:initial; font-size:5px;  margin-left: 480px;margin-top:-55px;">
+      <h1>467,432</h1>
+    </div>
+    <div style="font-family:initial; font-size:5px;  margin-left: 680px;margin-top: -60px;">
+      <h1> 4,556,091</h1>
+    </div>
+
+
+
+    <div>
+      <p class="card-text" style="margin-top: 50px; margin-left: 100px; font-size: ;"><small class="text-muted">Last
+          updated
+          3 mins ago</small>
+      </p>
+    </div>
+
+  </div>
+
+  <div id="about">
+
+    <div class="list-group" style="width: 300px;  margin-left: 1300px; margin-top: 200px;">
+      <a href="#" class="list-group-item list-group-item-action">what you need to know?</a>
+
+      <a data-scroll href="#home" class="list-group-item list-group-item-action list-group-item-primary">how coronavirus
+        is spread
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+        </svg></a>
+      <a data-scroll href="#about" class="list-group-item list-group-item-action list-group-item-secondary">symptoms of
+        coronavirus
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+        </svg></a>
+      <a data-scroll href="#symptoms" class="list-group-item list-group-item-action list-group-item-success">how to
+        protect
+        yourself <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+        </svg></a>
+      <a data-scroll data-scroll href="#"
+        class="list-group-item list-group-item-action list-group-item-danger">treatment for coronavirus <svg
+          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+        </svg></a>
+      <a data-scroll href="#" class="list-group-item list-group-item-action list-group-item-warning">myth-busters <svg
+          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+        </svg></a>
+      <a data-scroll href="#" class="list-group-item list-group-item-action list-group-item-info">Questions & answers
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+        </svg></a>
+    </div>
+    <div style="margin-top: -400px; background-color: rgb(189, 214, 255);">
+      <pre>
+      <h3 style="color: #0050e9 ; margin-top:-30px ;">
+          ABOUT THE DISEASE</h3>
+      <h1>    CORONAVIRUS (COVID-19)</h1>
+      <h4> COVID-19 is a new illness that can affect your lungs and airways.</h4>
+ <p>  It's caused by a virus called coronavirus. It was discovered in December 2019 in Wuhan,<br> Hubei, China.
+ <br>  Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing
+ difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome,
+ kidney failure and even death.
+<br>  Standard recommendations to prevent infection spread include regular hand washing, 
+ covering mouth and nose when coughing and sneezing, thoroughly cooking meat and eggs.
+ Avoid close contact with anyone showing symptoms of respiratoryillness such as coughing 
+ and sneezing.
+ </p>
+</pre>
+    </div>
+  </div>
+
+  <div id="symptoms" style="background-color: rgb(241, 251, 255);">
+
+    <h3 style="color: #0050e9; margin-left: 750px; margin-top: 25px;"> HOW CORONAVIRUS IS SPREAD</h3>
+    <h1 style="margin-left: 550px ; margin-top: 50px; font-size: 60px;">TRANSMISSION OF COVID-19</h1>
+    <h5 style="margin-top: 40px; margin-left: 200px ;"> Because it's a new illness, we do not know exactly how
+      coronavirus spreads from person to person. Similar
+      viruses are spread in cough droplets.</h5>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top: 20px;">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/spread-a.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #2a81ea;">Person-to-person spread as close contact with infected</h5>
+            <p class="card-text">The coronavirus is thought to spread mainly from person to person. This can happen
+              between people who are in close contact with one another.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/spread-b.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #2a81ea;">Touching or contact with infected surfaces or objects</h5>
+            <p class="card-text">A person can get COVID-19 by touching a surface or object that has the virus on it and
+              then touching their own mouth, nose, or possibly their eyes.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src=" ./img/spread-c.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #2a81ea;">Droplets that from infected person coughs or sneezes</h5>
+            <p class="card-text">The coronavirus is thought to spread mainly from person to person. This can happen
+              between people who are in close contact with one another.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button" style=" border-radius: 25px; margin-top: 60px;"> <svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
+          </svg> Have Question About Spreading?</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="Prevention" style="text-align: center; margin-top: 100px; background-color: rgb(227, 238, 255);">
+
+
+
+    <h3 style="color: #2a81ea;"> WHAT ARE THE SYMPTOMS OF COVID-19 ?</h3>
+    <h1 style="color:  #0050e9"> SYMPTOMS OF CORONAVIRUS</h1>
+    <p> The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and
+      pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin
+      gradually. Also the symptoms may appear 2-14 days after exposure.</p>
+
+
+    <div class="row row-cols-6 row-cols-md-3 g-4" style="margin-top: 100px;">
+      <div class="col">
+        <div class="card">
+          <img src="./img/symptom-a.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+      margin-left: 520px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #2a81ea;">Fever</h5>
+            <p class="card-text"><b> High Fever</b> – this means you feel hot to touch on your chest or back (you do
+              not need to measure your temperature). It is a common sign and also may appear in 2-10 days if you
+              affected.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/symptom-b.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+      margin-left: 520px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #2a81ea;">Cough</h5>
+            <p class="card-text"><b> Continuous cough </b>– this means coughing a lot for more than an hour, or 3 or
+              more coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual).</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/symptom-c.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+      margin-left: 520px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #2a81ea;">Shortness of breath</h5>
+            <p class="card-text"><b> Difficulty breathing </b>– Around 1 out of every 6 people who gets COVID-19
+              becomes seriously ill and develops difficulty breathing or shortness <br> of breath</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <pre>
+<p style="margin-top: 50px; font-size: 25px;text-align: justify;"><svg style="color: #2a81ea; " xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+  <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+</svg> Stay at home and call your doctor: If you think you have been exposed to COVID-19 and 
+     develop a fever and any symptoms, such as cough or difficulty breathing, call 
+     your healthcare provider as soon as possible for medical advice. </p>
+</pre>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-primary" type="button"
+        style=" border-radius: 25px; margin-top: -150px; width: 400px; height: 50px; margin-left: 900px;"> <svg
+          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+          <path
+            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
+        </svg> Have Question ? Find Answers</button>
+    </div>
+  </div>
+
+
+
+
+  <div id="treatment" style="text-align: center; margin-top: 100px; background-color: rgb(227, 238, 255);">
+
+
+
+
+    <h3 style="color: #2a81ea; margin-top: 10px;">HOW TO PROTECT YOURSELF</h3>
+    <h1 style="color:  #0050e9 There is currently no vaccine to prevent coronavirus disease 2019 (COVID-19). The best way to prevent illness is to avoid being exposed to this virus. Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority.
+
+      "> PREVENTION & ADVICE</h1>
+    <p> There is currently no vaccine to prevent coronavirus disease 2019 (COVID-19). The best way to prevent illness
+      is to avoid being exposed to this virus. Stay aware of the latest information on the COVID-19 outbreak,
+      available on the WHO website and through your national and local public health authority.
+
+    </p>
+
+
+
+    <div class="row row-cols-9 row-cols-md-4 g-4"
+      style="margin-top: 100px; margin-left: 100px; background-color: transparent; width:90%; height: 600px;">
+      <div class="col">
+        <div class="card" style="background-color: transparent; border: transparent;">
+          <img src="./img/advice-a.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+      margin-left: 160px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #2a81ea; background-color: transparent;">Wash your hands frequently
+            </h5>
+            <p class="card-text">Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them
+              with soap and water for at least 20 seconds.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="background-color: transparent; border: transparent;">
+          <img src="./img/advice-b.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+      margin-left: 160px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #2a81ea;">Maintain social distancing</h5>
+            <p class="card-text">Maintain at least 1 metre (3 feet) distance between yourself & anyone who is coughing
+              or sneezing. If you are too close, get chance to infected..</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="background-color: transparent; border: transparent;">
+          <img src="./img/advice-c.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+      margin-left: 160px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #2a81ea;">Avoid touching face</h5>
+            <p class="card-text">Hands touch many surfaces and can pick up viruses. So, hands can transfer the virus
+              to your eyes, nose or mouth and can make you sick.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="background-color: transparent; border: transparent;">
+          <img src="./img/advice-d.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+      margin-left: 160px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: #2a81ea; ">Practice respiratory hygiene</h5>
+            <p class="card-text">Maintain good respiratory hygiene as covering your mouth & nose with your bent elbow
+              or tissue when cough or sneeze.</p>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button"
+          style=" border-radius: 25px; margin-top: -150px; width: 400px; height: 50px; margin-left: 300px;">
+          Check How You Wash Hand
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-arrow-right"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+          </svg></button>
+      </div>
+
+      <p style="color:#0050e9 ; font-size: 35px; margin-left: -500px; margin-top: 0px; margin-right: 600px;">About
+        COVID-19 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor"
+          class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+        </svg></p>
+
+
+    </div>
+  </div>
+
+  <div id="protect" style=" margin-top: 100px; border: white 2px solid; background-color: white; text-align: justify; ">
+
+
+    <h1 style="color:#2a81ea; ; margin-top: 30px;margin-left: 60px; ">Take steps to protect others</h1>
+    <h6 style="margin-left: 60px;">
+      <svg style="color: rgb(25, 221, 25);margin-top: 20px; " xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        <path
+          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+      </svg> <b>stay home if you’re sick –</b>– Stay home if you are sick, except to get medical care.
+    </h6>
+    <br>
+    <h6 style="margin-left: 60px;">
+      <svg style="color: rgb(25, 221, 25);" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        <path
+          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+      </svg> <b>Cover your mouth and nose </b>– with a tissue when you cough or sneeze (throw used tissues in the
+      trash) or use the inside of your elbow.
+    </h6>
+    <br>
+    <h6 style="margin-left: 60px;">
+      <svg style="color: rgb(25, 221, 25);" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        <path
+          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+      </svg> <b>Wear a facemask if you are sick</b>– You should wear a facemask when you are around other people
+      (e.g., sharing a room or vehicle) and before you enter a healthcare provider’s
+    </h6>
+    <br>
+    <h6 style="margin-left: 60px;">
+      <svg style="color: rgb(25, 221, 25);" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        <path
+          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+      </svg> <b>Clean AND disinfect frequently touched surfaces daily</b>– This includes phones, tables, light
+      switches, doorknobs, countertops, handles, desks, toilets, faucets, and sinks.
+    </h6>
+    <br>
+    <h6 style="margin-left: 60px;">
+      <svg style="color: rgb(25, 221, 25);" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        <path
+          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+      </svg> <b>Clean the dirty surfaces</b>– Use detergent or soap and water prior to disinfection.
+    </h6>
+    <br>
+    <h6 style="margin-left: 60px;">
+      <svg style="color: rgb(25, 221, 25);" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        <path
+          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+      </svg> <b>Stay informed about the local COVID-19 situation </b>– Get up-to-date information about local
+      COVID-19 activity from public health officials.
+    </h6>
+    <br>
+    <h6 style="margin-left: 60px;">
+      <svg style="color: rgb(25, 221, 25);" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        <path
+          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+      </svg> <b>Dedicated, lined trash can </b>– If possible, dedicate a lined trash can for the ill person. Use
+      gloves when removing garbage bags, and handling & disposing of trash.
+    </h6>
+    <br>
+
+    <img style="margin-left: 1390px; margin-top: -400px; width: 400px;" src="./img/steps.png" alt="">
+
+
+    <h1 style="text-align: center; color:#2a81ea;"><b>Follow steps to wash hands</b></h1>
+    <p style="color:#0050e9 ; font-size: 25px; margin-left: 790px; margin-top: 20px; "> Why do I need wash hand <svg
+        xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-arrow-right"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+      </svg></p>
+
+    <div class="row row-cols-9 row-cols-md-6 g-4">
+      <div class="col">
+        <div class="card" style="background-color: transparent; border: transparent; margin-top: 120px; ">
+          <img src="./img/hand-a.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+margin-left: 160px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:black;  margin-left: 120px;"><b>Soap on Hand</b></h5>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="background-color: transparent; border: transparent; margin-top: 120px;">
+          <img src="./img/hand-b.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+margin-left: 160px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:black;  margin-left: 120px;"><b>Palm to Palm</b></h5>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="background-color: transparent; border: transparent; margin-top: 120px;">
+          <img src="./img/hand-c.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+margin-left: 160px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:black;  margin-left: 100px;"><b>Between Fingers</b></h5>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="background-color: transparent; border: transparent; margin-top: 120px;">
+          <img src="./img/hand-d.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+margin-left: 160px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:black;  margin-left: 120px;"><b>Back to Hands</b></h5>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="background-color: transparent; border: transparent; margin-top: 120px;">
+          <img src="./img/hand-e.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+margin-left: 160px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:black;  margin-left: 100px;"><b>Clean with Water</b></h5>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="background-color: transparent; border: transparent; margin-top: 120px;">
+          <img src="./img/hand-f.png" class="card-img-top" alt="..." style="width: 100px; height: 100px; border-radius: 100%;
+margin-left: 160px; margin-top: -70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:black;  margin-left: 120px;"><b>Focus on Wrist</b></h5>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="news" style=" margin-top: 100px; border: white 2px solid;  background-color: white; text-align: justify; ">
+    <h4 style="color:#0050e9 ; margin-top: 30px; margin-left: 50px; "><b>BE CAREFULL & STAY SAFE </b></h4>
+    <h1 style="color:white ; margin-left: 50px; margin-top: -20px;"><b>TREATMENT FOR CORONAVIRUS </b></h1>
+    <p style="color:black ;  font-size: 35px; width: 1000px; margin-left: 50px;"> <b>To date, there is no vaccine
+        and no specific antiviral medicine to prevent or treat COVID-2019.</b> However, those affected should
+      receive care to relieve symptoms. <br> People with serious illness should be hospitalized. Most patients
+      recover thanks to supportive care.
+
+      Antibiotics do not help, as they do not work against viruses. <br> Treatment aims to relieve the symptoms
+      while your body fights the illness. <br> You'll need to stay in isolation, away from other people, until you
+      have recovered.</p>
+
+    <div
+      style="background-color: #3173ee; color: white; margin-top: -550px; margin-left: 1150px; width: 600px; padding: 25px; border :solid 2px;">
+
+      <h3><b> Self Care</b> </h3>
+      <p>If you have mild symptoms, stay at home until you’ve recovered. You can relieve your symptoms if you: </p>
+      <h3><svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-arrow-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+        </svg>Rest and sleep</h3>
+      <h3><svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-arrow-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+        </svg>Keep warm</h3>
+      <h3><svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-arrow-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+        </svg>Drink plenty of liquids</h3>
+      <h3><svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-arrow-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+        </svg>Use a room humidifier or take a hot shower to help ease a sore throat and cough</h3>
+
+
+      <h3><b>Medical Treatments</b></h3>
+      <p>If you develop a fever, cough, and have difficulty breathing, promptly seek medical care. Call in advance
+        and tell your health provider of any recent travel or recent contact with travelers.</p>
+    </div>
+  </div>
+
+
+  <div id="do&don't" style=" margin-top: 20px; border: white 2px solid; background-color: white; text-align:center;  ">
+
+    <h2 style="color:#2a81ea;"> <b> DO’S & DON’TS</b></h2>
+
+    <h1 style="color: #23437e; margin-top: 20px;"><b>PROTECT YOURSELF</b></h1>
+    <p style="margin: 20px 40px;"> The best thing you can do now is plan for how you can adapt your daily routine.
+      Take few steps to protect yourself as Clean your hands often, Avoid close contact, Cover coughs and sneezes,
+      clean daily used surfaces etc. The best way to prevent illness is to avoid being exposed to this virus.</p>
+    <img style="width: 800px; height:700px;" src="./img/protect.png" alt="">
+
+
+    <div style=" background-color: white;">
+
+      <h6 style="color:#2a81ea ; background-color: white; margin-top: -600px; margin-left: -860px;"><b>Avoid Close
+          Contact </b><svg style="color:rgb(197, 26, 26) ;" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+          <path
+            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+        </svg></h6>
+      <img
+        style=" border:#2a81ea solid ; margin-top: -100px; margin-left: -600px; border-radius: 100%; width: 100px; height: 100px;"
+        src="./img/donts-a.png" alt="">
+
+
+      <h6 style="color:#2a81ea; background-color: white; margin-top: 90px; margin-left:-1000px;"><b>Don’t Touch Face
+        </b><svg style="color:rgb(197, 26, 26) ;" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+          <path
+            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+        </svg></h6>
+      <img
+        style="border:#2a81ea solid ; margin-top: -120px; margin-left: -760px; border-radius: 100%; width: 100px; height: 100px;"
+        src="./img/donts-b.png" alt="">
+
+
+      <h6 style="color:#2a81ea; background-color: white; margin-top: 90px; margin-left:-1200px;"><b>Social Distancing
+
+        </b><svg style="color:rgb(197, 26, 26) ;" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+          <path
+            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+        </svg></h6>
+      <img
+        style="border:#2a81ea solid ; margin-top: -120px; margin-left: -960px; border-radius: 100%; width: 100px; height: 100px;"
+        src="./img/donts-c.png" alt="">
+
+
+      <div>
+
+        <img
+          style=" border:#2a81ea solid ;margin-top: -670px; margin-right: -560px; border-radius: 100%; width: 100px; height: 100px;"
+          src="./img/dos-a.png" alt="">
+        <h6 style="color:#2a81ea ; background-color: white; margin-top: -320px; margin-right: -800px;"><svg
+            style="color: rgb(25, 221, 25);" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            <path
+              d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+          </svg> <b>Wash Your Hands</b></h6>
+
+        <img
+          style=" border:#2a81ea solid ;margin-top: 50px; margin-right: -730px; border-radius: 100%; width: 100px; height: 100px;"
+          src="./img/dos-b.png" alt="">
+        <h6 style="color:#2a81ea ; background-color: white; margin-top: -30px; margin-right: -990px;"><svg
+            style="color: rgb(25, 221, 25);" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            <path
+              d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+          </svg> <b>Drink Much Watar</b></h6>
+
+        <img
+          style="border:#2a81ea solid ; margin-top: 80px; margin-right: -830px; border-radius: 100%; width: 100px; height: 100px;"
+          src="./img/dos-c.png" alt="">
+        <h6 style="color:#2a81ea ; background-color: white; margin-top: -50px; margin-right: -1080px;"><svg
+            style="color: rgb(25, 221, 25);" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            <path
+              d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+          </svg> <b>Use Face Mask</b></h6>
+      </div>
+
+    </div>
+  </div>
+
+  
+  
+  <div id="update" style=" margin-top: 150px; margin-left: 0px; border: white 2px solid; background-color: white; text-align:center;  ">
+    
+    <h3 style="color:#2a81ea ;"><b>RECENT FROM BLOG</b></h3>
+   <h1 style="color: #23437e;"><b>LATEST UPDATE</b></h1>
+   <div class="row row-cols-1 row-cols-md-3 g-4 " style="margin: 60px; width: 1800px; height: 500px;">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/blog-a.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Caring for someone at home</h5>
+          <p class="card-text">Most people who get sick with COVID-19 will have only mild illness and should recover at home. Care at home can help stop the spread of COVID-19</div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/blog-b.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">15 ways to keep safe and healthy</h5>
+          <p class="card-text">Most people who get sick with COVID-19 will have only mild illness and should recover at home. Care at home can help stop the spread of COVID-19</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/blog-c.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">If You Think You Are Sick</h5>
+          <p class="card-text">If you are sick with COVID-19 or think you might have it, follow the steps below to help protect other people in your home and community</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+  <div id="fotter" style=" margin-top: 280px; margin-left: 0px; border: white 2px solid; background-color: ; text-align:justify;  ">
+   
+   
+    
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    < script src = "https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js" >
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js">
+  </script>
+
+
+  <script>
+    new WOW().init();
+  </script>
+
+  <script src="./js/wow.min.js"></script>
+
+
+  <script src="./js/main.js"></script>
+</body>
+
+
+</html>
